@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #9324dd82;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.rounded-input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.rounded-button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: #d6ae1e;
+  color: white;
+}
+
+.task-container {
+  width: 60%;
+  margin: 20px auto;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+
+.task-number {
+  margin-right: 10px;
+}
+
+.task-item {
+  flex-grow: 1;
+}
+
+.delete-button {
+  background-color: #6d308b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Hover efekti */
+}
